@@ -1,0 +1,14 @@
+server:
+    port: 8081
+spring:
+    application:
+        name: sentinel-demo
+    cloud:
+        sentinel:
+            enabled: true
+            transport:
+                port: 8723
+                dashboard: 127.0.0.1:8080
+                clientIp: 127.0.0.1
+            log:
+                dir: E:\sentinel
